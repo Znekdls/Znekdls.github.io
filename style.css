@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'Chosunilbo_myungjo';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  overflow: hidden;
+}
+
+.main {
+  font-family: 'Chosunilbo_myungjo';
+  position: relative;
+  margin-top: 50vh;
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  transform: translateY(-50%);
+  animation-name: hello;
+  animation-duration: 3s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  
+}
+
+
+@keyframes hello {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
+@keyframes ani2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 600px){
+  * {
+    font-size: 120%;
+  }
+}
+
+
+.home {
+  font-size: 25px;
+  font-family: 'Chosunilbo_myungjo';
+  position: relative;
+  margin-top: 50vh;
+  text-align: center;
+  transform: translateY(-50%);
+  opacity: 0;
+  animation-name: ani2;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+.name {
+  position: static;
+  font-size: 40px;
+}
+.hometxt {
+  margin-bottom: 30px;
+}
+
+.lst {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+a {
+  margin-bottom: 10px;
+}
+
+li > a:link {
+  text-decoration: none;
+  color: black;
+}
+
+li > a:visited {
+  color: black;
+}
+
+li {
+  list-style: none;
+  padding: 5px 0px 5px 0px;
+  margin: 0;
+}
+
+ul {
+  -webkit-padding-start: 0;
+}
