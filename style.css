@@ -7,6 +7,7 @@
 
 body {
   overflow: hidden;
+  background: hsl(0, 3%, 25%);
 }
 
 .main {
@@ -14,14 +15,14 @@ body {
   position: relative;
   margin-top: 50vh;
   display: block;
-  font-size: 20px;
+  font-size: 40px;
   text-align: center;
   transform: translateY(-50%);
   animation-name: hello;
   animation-duration: 3s;
   animation-timing-function: ease;
   animation-fill-mode: forwards;
-  
+  color: rgb(255, 255, 255);
 }
 
 
@@ -61,7 +62,7 @@ body {
   font-size: 25px;
   font-family: 'Chosunilbo_myungjo';
   position: relative;
-  margin-top: 50vh;
+  margin-top: 53vh;
   text-align: center;
   transform: translateY(-50%);
   opacity: 0;
@@ -70,17 +71,18 @@ body {
   animation-timing-function: ease;
   animation-fill-mode: forwards;
   animation-delay: 3s;
+  color: #f7f7f7de;
 }
 .name {
   position: static;
-  font-size: 40px;
+  font-size: 80px;
 }
 .hometxt {
   margin-bottom: 30px;
 }
 
 .lst {
-  margin-top: 20px;
+  margin-top: 25px;
   font-size: 20px;
 }
 
@@ -90,11 +92,11 @@ a {
 
 li > a:link {
   text-decoration: none;
-  color: black;
+  color: #c5caca;
 }
 
 li > a:visited {
-  color: black;
+  color: #c5caca;
 }
 
 li {
